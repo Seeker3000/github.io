@@ -1,4 +1,4 @@
-/* Copyright (c) since 2010 www.vru.ro - All Rights Reserved The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/* 
+/* Copyright © 2016 -- 2020 www.vru.ro - All Rights Reserved The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/* 
 a{background-color:transparent}a:active,a:hover{outline-width:0}
 .active {background-color: #4CAF50;color: white;}
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
@@ -8,8 +8,8 @@ html{overflow-x:hidden}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{
 h1,h2,h3,h4,h5,h6{font-family: DejaVuSans,Arial,sans-serif;font-weight:400;margin:10px 0}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 a{color:inherit}
-.vru-hoverable tbody tr:hover,.vru-ul.vru-hoverable li:hover{background-color:#ccc}
-.vru-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.vru-hoverable tbody tr:hover,.vru-ul.vru-hoverable li:hover{background-color:#ccc; cursor:pointer;}
+.vru-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;white-space:nowrap}
 .vru-button:disabled{cursor:not-allowed;opacity:0.3}
 .vru-tag{background-color:#000;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
 .vru-ul{list-style-type:none;padding:0;margin:0}
