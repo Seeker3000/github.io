@@ -1,2 +1,7 @@
 # vru.ro
-VRU este un proiect educational gratuit unde sunt disponibile tutoriale, articole, aplicatii SW si un laborator virtual.
+VRU is an educational project where you may find notes on topics like:
+- Mathematics
+- Electrotehnic
+- Python
+- German Language
+- Controller Area Network (CAN bus) 

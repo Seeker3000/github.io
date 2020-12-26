@@ -52,6 +52,10 @@ function NAV8() {
 function NAV9() {
   document.getElementById("vru-meniu-9").classList.toggle("show");
 }
+
+function NAV10() {
+  document.getElementById("vru-meniu-10").classList.toggle("show");
+}
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.submenu-vru')) {
