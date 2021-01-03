@@ -6,8 +6,12 @@ html,body{font-family:DejaVuSans,sans-serif;font-size:15px;line-height:1.5}
 html{overflow-x:hidden}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .vru-serif{font-family:DejaVuSans}
 h1,h2,h3,h4,h5,h6{font-family: DejaVuSans,Arial,sans-serif;font-weight:400;margin:10px 0}
+h4{text-align:left;width:100%;}
+h3{text-align:center;width:100%;}
+p {margin: 3px;text-align:center}  
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 a{color:inherit}
+ul.vru{list-style-type: circle;text-align:left;width:100%;font-family: DejaVuSans,Arial,sans-serif;font-size:20px}
 .vru-hoverable tbody tr:hover,.vru-ul.vru-hoverable li:hover{background-color:#ccc; cursor:pointer;}
 .vru-button{border:none;display:inline-block;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;white-space:nowrap}
 .vru-button:disabled{cursor:not-allowed;opacity:0.3}
@@ -27,6 +31,7 @@ a{color:inherit}
 .vru-bar-block .vru-center .vru-bar-item{text-align:center}
 .vru-container:after,.vru-container:before,.vru-panel:after,.vru-panel:before,.vru-row:after,.vru-row:before,.vru-row-padding:after,.vru-row-padding:before,.vru-cell-row:before,.vru-cell-row:after,.vru-clear:after,.vru-clear:before,.vru-bar:before,.vru-bar:after{content:"";display:table;clear:both}
 .vru-third{float:left;width:100%;}
+.vru-copyright{float:center;width:100%;}
 .vru-quarter{float:left;width:100%;margin-left:3%;margin-right:10px}
 .vru-content{margin-left:auto;margin-right:auto}
 .vru-content{max-width:980px}
