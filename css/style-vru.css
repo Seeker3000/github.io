@@ -9,11 +9,7 @@ h1,h2,h3,h4,h5,h6{font-family: DejaVuSans,Arial,sans-serif;font-weight:400;margi
 h4{text-align:left;width:100%;}
 h3{text-align:center;width:100%;}
 p {margin: 3px;text-align:center} 
-.text-stiintific {
-    margin: 3px;
-    text-align: left;
-}
-p_art {margin: 3px;text-align:left}   
+.text-stiintific {margin: 3px;text-align: left;}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 a{color:inherit}
 ul.vru{list-style-type: circle;text-align:left;width:100%;font-family: DejaVuSans,Arial,sans-serif;font-size:20px}
