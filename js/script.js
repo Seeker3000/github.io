@@ -1,4 +1,4 @@
-// Copyright (c) 2010-2020 vru.ro
+// Copyright (c) 2010-2023 vru.ro
 // The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF // 
 // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR 
@@ -68,6 +68,9 @@ function NAV13() {
 }
 function NAV14() {
   document.getElementById("vru-meniu-14").classList.toggle("show");
+}
+function NAV15() {
+  document.getElementById("vru-meniu-15").classList.toggle("show");
 }
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
