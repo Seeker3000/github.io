@@ -1,4 +1,4 @@
-/* Copyright © 2016 -- 2020 www.vru.ro - All Rights Reserved The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/* 
+/* Copyright © 2010 -- 2023 www.vru.ro - All Rights Reserved The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*/* 
 a{background-color:transparent}a:active,a:hover{outline-width:0}
 .active {background-color: #4CAF50;color: white;}
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
@@ -34,8 +34,7 @@ ul.vru{list-style-type: circle;text-align:left;width:100%;font-family: DejaVuSan
 .vru-third{float:left;width:100%;}
 .vru-copyright{float:center;width:100%;}
 .vru-quarter{float:left;width:100%;margin-left:3%;margin-right:3%}
-.vru-content{margin-left:auto;margin-right:auto}
-.vru-content{max-width:980px}
+.vru-content{max-width:980px; margin-left:auto;margin-right:auto}
 @media (min-width:601px){.vru-quarter{width:225px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);}.vru-third{width:33.3%}}
 .vru-top{position:fixed;width:100%;z-index:1}
 .vru-top{top:0}
