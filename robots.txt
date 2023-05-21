@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://www.vru.ro/sitemap.xml
+Sitemap: https://www.vru.ro/sitemap.xml
 Disallow: /sehnsucht
