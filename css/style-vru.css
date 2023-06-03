@@ -5,11 +5,12 @@ html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html,body{font-family:DejaVuSans,sans-serif;font-size:15px;line-height:1.5}
 html{overflow-x:hidden}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
 .vru-serif{font-family:DejaVuSans}
-h1,h2,h3,h4,h5,h6{font-family: DejaVuSans,Arial,sans-serif;font-weight:400;margin:10px 0}
+h1,h2,h3,h4,h5,h6{font-family: DejaVuSans, Arial,sans-serif; font-weight:400; margin:10px 0}
 h4{text-align:left;width:100%;}
 h3{text-align:center;width:100%;}
 p {margin: 3px;text-align:center} 
-.text-stiintific {margin: 3px;text-align: left;}
+.text-stiintific {margin: 3px;text-align: left; text-indent: 30px;}
+.text-general {margin: 3px;text-align: left; text-indent: 30px;}
 hr{border:0;border-top:1px solid #eee;margin:20px 0}
 a{color:inherit}
 ul.vru{list-style-type: circle;text-align:left;width:100%;font-family: DejaVuSans,Arial,sans-serif;font-size:20px}
@@ -66,7 +67,7 @@ ul.vru{list-style-type: circle;text-align:left;width:100%;font-family: DejaVuSan
 .price {width:100%;list-style-type: none;border: 1px solid #eee;margin: 0;padding: 0;-webkit-transition: 0.3s;transition: 0.3s;}.price:hover {box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)}.price .header {background-color: #5A2653;color: white;font-size: 25px;}.price li {border-bottom: 1px solid #ffffea;padding: 20px;text-align: center;}.price .grey {background-color: #ffffea;font-size: 20px;}
 .header {height:90px;width:100%;background-color: #5A2653;color: white;font-size: 25px;}
 .grey {background-color: #ffffea;font-size: 20px;}
-.button {background-color: #4CAF50;border: none;color: white;padding: 10px 25px;text-align: center;text-decoration: none;font-size: 18px;}
+.button {background-color: #29602B;border: none;color: white;padding: 10px 25px;text-align: center;text-decoration: none;font-size: 18px;}
 a {text-decoration: none;display: inline-block;padding: 8px 16px;}
 a:hover {background-color: #99e699;color: black;}
 .anterior {background-color: #ffffff;color: black; font-size: 19px;}
