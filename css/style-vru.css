@@ -3,10 +3,16 @@ a{background-color:transparent}a:active,a:hover{outline-width:0}
 .active {background-color: #4CAF50;color: white;}
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html,body{font-family:DejaVuSans,sans-serif;font-size:15px;line-height:1.5}
-html{overflow-x:hidden}h1{font-size:36px}h2{font-size:30px}h3{font-size:24px}h4{font-size:20px}h5{font-size:18px}h6{font-size:16px}
+html{overflow-x:hidden}
+h1{font-size:36px}
+h2{font-size:30px}
+h3{font-size:24px}
+h4{font-size:20px}
+h5{text-align:left;width:100%;font-size:18px; text-indent: 70px;}
+h6{text-align:left;width:100%;font-size:16px; text-indent: 70px;}
 .vru-serif{font-family:DejaVuSans}
 h1,h2,h3,h4,h5,h6{font-family: DejaVuSans, Arial,sans-serif; font-weight:400; margin:10px 0}
-h4{text-align:left;width:100%;}
+h4{text-align:center;width:100%;}
 h3{text-align:center;width:100%;}
 p {margin: 3px;text-align:center} 
 .text-stiintific {margin: 3px;text-align: left; text-indent: 30px;}
@@ -83,6 +89,9 @@ a:hover {background-color: #99e699;color: black;}
 .vru-sub-menu-content a:hover {background-color: #ffcc00}
 .show {display:block;} 
 table, th, td {border: 1px solid black;border-collapse: collapse;padding: 1px;text-align:center;}
-table {width: 80%;}
+table {width: 80%; border-collapse: collapse;}
+tr:nth-child(even){background-color: #f1f1f1;}
 highlight {border: 1px solid black;border-collapse: collapse;padding: 1px;text-align:left;}
 span.lineno { background-color: #ffffea; padding: 0 5px 0 5px; }pre { line-height: 125%; }body .c { color: red; font-style: italic }body .err { border: 1px solid #FF0000 }body .k { color: #ffa366; font-weight: bold }body .o { color: #666666 } body .ch { color: red; font-style: italic }body .cm { color: red; font-style: italic } body .cp { color: red }body .cpf { color: red; font-style: italic } body .c1 { color: red; font-style: italic } body .cs { color: red; font-weight: bold } body .gd { color: #A00000 } body .ge { font-style: italic } body .gr { color: #FF0000 } body .gh { color: #000080; font-weight: bold } body .gi { color: #0000ff } body .go { color: #888888 } body .gp { color: #000080; font-weight: bold } body .gs { font-weight: bold } body .gu { color: #800080; font-weight: bold } body .gt { color: #0044DD } body .kc { color: #8e00e6; font-weight: bold } body .kd { color: #8e00e6; font-weight: bold } body .kn { color: #8e00e6; font-weight: bold } body .kp { color: #8e00e6 } body .kr { color: #8e00e6; font-weight: bold } body .kt { color: #00BB00; font-weight: bold } body .m { color: #666666 } body .s { color: #29a329 } body .na { color: #29a329 } body .nb { color: #8e00e6 } body .nc { color: #0000FF } body .no { color: #880000 }body .nd { color: #8e00e6 }body .ni { color: #999999; font-weight: bold }body .ne { color: #D2413A; font-weight: bold }body .nf { color: #0000ff }body .nl { color: #A0A000 }body .nn { color: #0000FF; font-weight: bold }body .nt { color: #008000; font-weight: bold }body .nv { color: #B8860B }body .ow { color: #8e00e6; font-weight: bold }body .w { color: #bbbbbb }body .mb { color: #666666 }body .mf { color: #666666 }body .mh { color: #666666 }body .mi { color: #666666 }body .mo { color: #666666 }body .sa { color: #29a329 }body .sb { color: #29a329 }body .sc { color: #29a329 }body .dl { color: #29a329 }body .sd { color: #29a329; font-style: italic }body .s2 { color: #29a329 }body .se { color: #BB6622; font-weight: bold }body .sh { color: #29a329 }body .si { color: #BB6688; font-weight: bold }body .sx { color: #008000 }body .sr { color: #BB6688 }body .s1 { color: #29a329 }body .ss { color: #B8860B }body .bp { color: #8e00e6 }body .fm { color: #0000ff }body .vc { color: #B8860B }body .vg { color: #B8860B }body .vi { color: #B8860B }body .vm { color: #B8860B }body .il { color: #666666 }
+li {display: list-item; padding: 3px;}
+ul {padding-left: 70px;}
